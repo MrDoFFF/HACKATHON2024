@@ -9,7 +9,10 @@ ul, ol, a {
   list-style-type: none;
 }
 
-<<<<<<<<< Temporary merge branch 1
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Product Sans", sans-serif;
 }
@@ -107,6 +110,103 @@ aside ul li i {
 aside ul li:hover {
   transition: 0.5s;
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.container {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+}
+.container .login-section {
+  flex: 1;
+  padding: 40px;
+  background-color: #fff;
+  margin-top: 150px;
+}
+.container .login-section h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: rgb(51, 51, 165);
+}
+.container .login-section p {
+  margin-bottom: 20px;
+  color: #666;
+}
+.container .login-section form {
+  display: flex;
+  flex-direction: column;
+}
+.container .login-section form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(51, 51, 165);
+}
+.container .login-section form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.container .login-section form .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container .login-section form .password {
+  color: rgb(51, 51, 165);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.container .login-section form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(51, 51, 165);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.container .login-section form button:hover {
+  background-color: #0056b3;
+  transition: opacity 0.3 ease transform 0.3 ease;
+}
+.container .signup {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+.container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.promo-section {
+  flex: 1;
+  background: linear-gradient(to right, rgba(0, 0, 128, 0.7), rgba(0, 0, 128, 0.5)), url("../../../11b981c5-b262-463d-bcda-c96876793d4b.jpg") no-repeat center center;
+  opacity: 0.7;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(15px);
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.promo-section .promo-text {
+  text-align: left;
+  padding: 20px;
+}
+.promo-section h2 {
+  font-size: 2rem;
+  padding-right: 80px;
+  margin-top: 200px;
+}
+.promo-section span {
+  color: #ffcc00;
 }
 
 .main {
@@ -421,139 +521,5 @@ aside ul li:hover {
 @media screen and (max-width: 380px) {
   .hero_container .reqister_right input {
     width: 100%;
-=========
-.main {
-  background-image: url(https://pics.craiyon.com/2023-06-16/931faf32947d40c5840c920ca14273e8.webp);
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.main .container {
-  position: relative;
-}
-.main .container .logo {
-  display: flex;
-  text-align: left;
-  align-items: center;
-  padding: 30px;
-}
-.main .container .logo img {
-  width: 400px;
-  height: 80px;
-}
-.main .container .title {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 18px;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 8rem;
-  font-variant: small-caps;
-}
-.main .container .title p {
-  margin-top: 1rem;
-  font-size: 16px;
-  font-weight: 400;
-}
-.main .container .admin-form {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  align-items: start;
-  margin-top: 3rem;
-  gap: 1rem;
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  width: 100%;
-}
-.main .container .admin-form label {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
-  color: white;
-}
-.main .container .admin-form input {
-  padding-left: 10px;
-  width: 100%;
-  height: 35px;
-}
-.main .container .admin-form input:hover {
-  transition: 0.3s;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-.main .container .admin-form .checkbox {
-  width: 100%;
-  gap: 5px;
-  align-items: center;
-  display: flex;
-}
-.main .container .admin-form .checkbox .check {
-  width: 20px;
-}
-.main .container .admin-form .checkbox .chc {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.main .container .admin-form .checkbox a {
-  color: white;
-}
-.main .container .admin-form .checkbox a:hover {
-  color: rgb(0, 0, 0);
-  transition: 0.3s;
-}
-.main .container .admin-form .sign-btn {
-  margin-top: 1rem;
-  width: 100%;
-}
-.main .container .admin-form .sign-btn button {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 100%;
-  height: 30px;
-  background-color: #ffc20e;
-  font-size: 16px;
-  border: none;
-  transition: 0.3s;
-}
-.main .container .admin-form .sign-btn button:hover {
-  background-color: #f4c73f;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  transition: 0.3s;
-}
-
-@media only screen and (max-width: 767px) {
-  .admin-form {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: start;
-    margin-top: 3rem;
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    padding: 0 10px;
   }
-  .admin-form input {
-    padding-left: 10px;
-    width: 100% !important;
-    height: 35px;
-  }
-  .admin-form .checkbox {
-    width: 100%;
-    gap: 5px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-  }
-  .admin-form .chc {
-    width: 100%;
-    display: flex;
->>>>>>>>> Temporary merge branch 2
-  }
->>>>>>> 6230bb780efbae255a3347ec24c9dca312176a78
 }/*# sourceMappingURL=main.css.map */
