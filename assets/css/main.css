@@ -271,10 +271,25 @@ aside ul li i {
     width: 100%;
   }
 }
-.create_form .group_inp {
-  display: flex;
+#create_body {
+  background-color: black;
+  padding: 30px;
 }
-.create_form .vertical {
+#create_body input {
+  background-color: rgb(55, 65, 81);
+}
+#create_body .flex {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+}
+#create_body .my_label {
+  color: white;
+}
+#create_body .vertical_cntr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#create_body #payroll_month, #create_body #payroll_year, #create_body #payroll_status {
+  height: 50px;
 }/*# sourceMappingURL=main.css.map */
