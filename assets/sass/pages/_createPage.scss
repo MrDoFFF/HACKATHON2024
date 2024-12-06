@@ -1,0 +1,23 @@
+#create_body{
+    background-color: black;
+    padding: 30px;
+    input{
+        background-color: rgb(55 65 81);
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    .my_label{
+        color: white;
+    }
+    .vertical_cntr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #payroll_month,#payroll_year,#payroll_status{
+        // width: 50px;
+        height: 50px;
+    }
+}

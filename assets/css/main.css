@@ -404,4 +404,26 @@ aside ul li i {
     display: flex;
 >>>>>>> e488fa9f5dba5de16ac094221ca9da57124f070b
   }
+}
+#create_body {
+  background-color: black;
+  padding: 30px;
+}
+#create_body input {
+  background-color: rgb(55, 65, 81);
+}
+#create_body .flex {
+  display: flex;
+  align-items: center;
+}
+#create_body .my_label {
+  color: white;
+}
+#create_body .vertical_cntr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#create_body #payroll_month, #create_body #payroll_year, #create_body #payroll_status {
+  height: 50px;
 }/*# sourceMappingURL=main.css.map */
