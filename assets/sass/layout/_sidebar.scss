@@ -6,6 +6,15 @@ aside{
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    .log_out{
+        padding: 10px 15px;
+        border-radius: 50px;
+        width: 90%;
+        margin: 0 auto;
+        background-color: red;
+        color: white;
+    }
     .aside_top{
         img{
             width: 80%;
@@ -57,6 +66,7 @@ aside{
             border-radius: 50px;
             background-color: gray;
             color: white;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             i{
                 margin: 0 15px;
             }
