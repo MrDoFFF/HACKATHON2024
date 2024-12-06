@@ -1,0 +1,186 @@
+.hero_container{
+    display: flex;
+    justify-content: space-between;
+    .reqister_left{
+        position: relative;
+        height: 100vh;
+        // background-image: url('../../imgs/reqister.png');
+        background-color: #253D90;
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+        img{
+            max-width: 80%;
+        }
+        hr{
+            height: 5px;
+            width: 100px;
+            border-radius: 50px;
+            background-color: white;
+        }
+        .text_box{
+            height: 30%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h2{
+                font-size: 40px;
+                font-weight: bold;
+                color: white;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 100;
+                color: rgba(255,255,255,0.4);
+            }
+        }
+        .btn_div{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            // align-items: center;
+            button{
+                width: 200px;
+                height: 50px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-weight: bold;
+
+            }
+            .learn_btn{
+                background-color: #FFC20E;
+                transition: all 500ms;
+                &:hover{
+                    background-color: #ffcd38;
+                    color: white;
+                }
+            }
+            .features_btn{
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                transition: all 500ms;
+
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+    .reqister_right{
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        a{
+            text-decoration: underline;
+        }
+        .welcome_h{
+            color: #253D90;
+            font-size: 56px;
+        }
+        .reqister_p{
+            color: #969696;
+            font-size: 30px;
+            font-weight: 100;
+            margin: 30px 0;
+        }
+        input{
+            width: 300px;
+            height: 51px;
+            border-radius: 5px;
+            padding-left: 10px;
+            border: 1px solid rgba(0,0,0,0.3);
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        .check_inp{
+            width: auto;
+            height: auto;
+            margin: 10px 0;
+        }
+        .input_group{
+            display: flex;
+            gap: 10px;
+            .vertical{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+                color: #253D90;
+            }
+        }
+        .create_acc_btn{
+            height: 61px;
+            width: 312px;
+            background-color: #253D90;
+            border-radius: 50px;
+            color: white;
+            margin: 20px 0;
+            &:hover{
+                background-color: #567bff;
+                color: rgba(0,0,0,0.3);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .hero_container{
+        flex-direction: column;
+        .reqister_left{
+            width: 100%;
+        }
+        .reqister_right{
+            padding: 5rem 0;
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:645px) {
+    .hero_container{
+        flex-direction: column;
+        .reqister_right{
+            width: 100%;
+            .welcome_h{
+                font-size: 25px;
+            }
+            .reqister_p {
+                font-size: 25px;
+            }
+        }
+        .reqister_right{
+            padding: 5rem 0;
+            width: 100%;
+            .input_group{
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .hero_container .reqister_left .text_box{
+        width: 80%;
+        gap: 10px;
+        h2{
+            font-size: 25px;
+        }
+    }
+    .hero_container .reqister_left .btn_div{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:380px) {
+    .hero_container .reqister_right input {
+        width: 100%;
+    }
+}
