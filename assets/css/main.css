@@ -342,6 +342,58 @@ aside ul li:hover {
     display: flex;
   }
 }
+.rows .row {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.rows .row .card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 500px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.rows .row .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.rows .row .job-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.rows .row .job-item:last-child {
+  border-bottom: none;
+}
+.rows .row .job-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.rows .row .job-details {
+  flex: 1;
+  margin-left: 10px;
+}
+.rows .row .job-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+.rows .row .job-company {
+  font-size: 14px;
+  color: #888888;
+  margin: 5px 0 0;
+}
+.rows .row .job-time {
+  font-size: 12px;
+  color: #666666;
+}
+
 .hero_container {
   display: flex;
   justify-content: space-between;
