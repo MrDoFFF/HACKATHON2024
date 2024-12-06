@@ -287,7 +287,7 @@ aside ul li i {
 @media screen and (max-width: 380px) {
   .hero_container .reqister_right input {
     width: 100%;
-=======
+  }}
 .main {
   background-image: url(https://pics.craiyon.com/2023-06-16/931faf32947d40c5840c920ca14273e8.webp);
   height: 100vh;
@@ -419,6 +419,6 @@ aside ul li i {
   .admin-form .chc {
     width: 100%;
     display: flex;
->>>>>>> e488fa9f5dba5de16ac094221ca9da57124f070b
+
   }
 }/*# sourceMappingURL=main.css.map */
