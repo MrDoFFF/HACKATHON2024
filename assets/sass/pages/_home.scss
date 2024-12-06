@@ -1,0 +1,138 @@
+.main {
+  background-image: url(https://pics.craiyon.com/2023-06-16/931faf32947d40c5840c920ca14273e8.webp);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .container {
+    position: relative;
+    .logo {
+      display: flex;
+      text-align: left;
+      align-items: center;
+      padding: 30px;
+      img {
+        width: 400px;
+        height: 80px;
+      }
+    }
+
+    .title {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 18px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 8rem;
+      font-variant: small-caps;
+    }
+    .title p {
+      margin-top: 1rem;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .admin-form {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      align-items: start;
+      margin-top: 3rem;
+      gap: 1rem;
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      width: 100%;
+      label {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        color: white;
+      }
+      input {
+        padding-left: 10px;
+        width: 100%;
+        height: 35px;
+      }
+      input:hover {
+        transition: 0.3s;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+          rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      }
+      .checkbox {
+        width: 100%;
+        gap: 5px;
+        align-items: center;
+        display: flex;
+        .check {
+          width: 20px;
+        }
+        .chc {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+        a {
+          color: white;
+        }
+        a:hover {
+          color: rgb(0, 0, 0);
+          transition: 0.3s;
+        }
+      }
+      .sign-btn {
+        margin-top: 1rem;
+        width: 100%;
+        button {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+          width: 100%;
+          height: 30px;
+          background-color: #ffc20e;
+          font-size: 16px;
+          border: none;
+          transition: 0.3s;
+        }
+        button:hover {
+          background-color: #f4c73f;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+            rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .admin-form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: start;
+    margin-top: 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 0 10px;
+    input {
+      padding-left: 10px;
+      width: 100% !important;
+      height: 35px;
+    }
+    .checkbox {
+      width: 100%;
+      gap: 5px;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+    }
+    .chc {
+      width: 100%;
+      display: flex;
+    }
+  }
+}
