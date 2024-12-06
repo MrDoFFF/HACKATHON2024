@@ -26,18 +26,13 @@ aside {
   justify-content: space-between;
   padding-bottom: 30px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-<<<<<<< HEAD
-}
-aside .log_out {
-  font-weight: 500;
-  font-size: 16px;
-=======
   position: fixed;
   left: 0;
   top: 0;
 }
 aside .log_out {
->>>>>>> gulban_table
+  font-weight: 500;
+  font-size: 16px;
   padding: 10px 15px;
   border-radius: 50px;
   width: 90%;
@@ -45,7 +40,6 @@ aside .log_out {
   background-color: red;
   color: white;
 }
-<<<<<<< HEAD
 aside .log_out:hover {
   transition: 0.3s ease;
   box-shadow: rgba(0, 0, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
@@ -55,8 +49,6 @@ aside .aside_top .logo5 {
   display: flex;
   justify-content: center;
 }
-=======
->>>>>>> gulban_table
 aside .aside_top img {
   width: 80%;
   padding-bottom: 30px;
@@ -79,11 +71,7 @@ aside .aside_top .profile {
   display: flex;
   color: white;
   justify-content: center;
-<<<<<<< HEAD
   gap: 2rem;
-=======
-  gap: 10px;
->>>>>>> gulban_table
 }
 aside .aside_top .profile img {
   width: 20%;
@@ -91,7 +79,6 @@ aside .aside_top .profile img {
 }
 aside .aside_top .profile .credentials {
   display: flex;
-<<<<<<< HEAD
   line-height: 25px;
   flex-direction: column;
   justify-content: center;
@@ -100,11 +87,6 @@ aside .aside_top .profile .credentials span {
   font-size: 16px;
   font-family: "Times New Roman", Times, serif;
 }
-=======
-  flex-direction: column;
-  justify-content: center;
-}
->>>>>>> gulban_table
 aside ul {
   margin: 0 auto;
   width: 70%;
@@ -112,30 +94,19 @@ aside ul {
   display: flex;
   flex-direction: column;
   align-items: start;
-<<<<<<< HEAD
   gap: 2rem;
 }
 aside ul li {
   transition: 0.5s;
-=======
-  gap: 10px;
-}
-aside ul li {
->>>>>>> gulban_table
   cursor: pointer;
   width: 100%;
   padding: 15px 10px;
   border-radius: 50px;
-<<<<<<< HEAD
   background-image: linear-gradient(to right, rgb(112, 116, 247), rgb(130, 130, 23));
-=======
-  background-color: gray;
->>>>>>> gulban_table
   color: white;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 aside ul li i {
-<<<<<<< HEAD
   color: #ffffff;
   margin: 0 15px;
 }
@@ -143,10 +114,6 @@ aside ul li:hover {
   transition: 0.5s;
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
-=======
-  margin: 0 15px;
-}
->>>>>>> gulban_table
 
 .container {
   display: flex;
@@ -346,7 +313,6 @@ aside ul li:hover {
   background-color: #f4c73f;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   transition: 0.3s;
-<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 767px) {
@@ -429,40 +395,8 @@ aside ul li:hover {
 .rows .row .job-time {
   font-size: 12px;
   color: #666666;
-=======
->>>>>>> gulban_table
 }
 
-@media only screen and (max-width: 767px) {
-  .admin-form {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: start;
-    margin-top: 3rem;
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    padding: 0 10px;
-  }
-  .admin-form input {
-    padding-left: 10px;
-    width: 100% !important;
-    height: 35px;
-  }
-  .admin-form .checkbox {
-    width: 100%;
-    gap: 5px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-  }
-  .admin-form .chc {
-    width: 100%;
-    display: flex;
-  }
-}
 .hero_container {
   display: flex;
   justify-content: space-between;
@@ -644,7 +578,6 @@ aside ul li:hover {
     width: 100%;
   }
 }
-<<<<<<< HEAD
 #create_body {
   background-color: black;
   padding: 30px;
@@ -666,7 +599,8 @@ aside ul li:hover {
 }
 #create_body #payroll_month, #create_body #payroll_year, #create_body #payroll_status {
   height: 50px;
-=======
+}
+
 #vacation {
   margin-left: 292px;
 }
@@ -728,5 +662,4 @@ aside ul li:hover {
 }
 .vacation-container .vacation-form .submit-btn:hover {
   background-color: #0056b3;
->>>>>>> gulban_table
 }/*# sourceMappingURL=main.css.map */
