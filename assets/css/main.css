@@ -270,4 +270,11 @@ aside ul li i {
   .hero_container .reqister_right input {
     width: 100%;
   }
+}
+.create_form .group_inp {
+  display: flex;
+}
+.create_form .vertical {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
