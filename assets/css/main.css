@@ -9,6 +9,7 @@ ul, ol, a {
   list-style-type: none;
 }
 
+<<<<<<< HEAD
 body {
   font-family: "Product Sans", sans-serif;
 }
@@ -192,5 +193,138 @@ body {
 @media screen and (max-width: 380px) {
   .hero_container .reqister_right input {
     width: 100%;
+=======
+.main {
+  background-image: url(https://pics.craiyon.com/2023-06-16/931faf32947d40c5840c920ca14273e8.webp);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main .container {
+  position: relative;
+}
+.main .container .logo {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  padding: 30px;
+}
+.main .container .logo img {
+  width: 400px;
+  height: 80px;
+}
+.main .container .title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8rem;
+  font-variant: small-caps;
+}
+.main .container .title p {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+.main .container .admin-form {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: start;
+  margin-top: 3rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+}
+.main .container .admin-form label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+.main .container .admin-form input {
+  padding-left: 10px;
+  width: 100%;
+  height: 35px;
+}
+.main .container .admin-form input:hover {
+  transition: 0.3s;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.main .container .admin-form .checkbox {
+  width: 100%;
+  gap: 5px;
+  align-items: center;
+  display: flex;
+}
+.main .container .admin-form .checkbox .check {
+  width: 20px;
+}
+.main .container .admin-form .checkbox .chc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .container .admin-form .checkbox a {
+  color: white;
+}
+.main .container .admin-form .checkbox a:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+.main .container .admin-form .sign-btn {
+  margin-top: 1rem;
+  width: 100%;
+}
+.main .container .admin-form .sign-btn button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 30px;
+  background-color: #ffc20e;
+  font-size: 16px;
+  border: none;
+  transition: 0.3s;
+}
+.main .container .admin-form .sign-btn button:hover {
+  background-color: #f4c73f;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 767px) {
+  .admin-form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: start;
+    margin-top: 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 0 10px;
+  }
+  .admin-form input {
+    padding-left: 10px;
+    width: 100% !important;
+    height: 35px;
+  }
+  .admin-form .checkbox {
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .admin-form .chc {
+    width: 100%;
+    display: flex;
+>>>>>>> e488fa9f5dba5de16ac094221ca9da57124f070b
   }
 }/*# sourceMappingURL=main.css.map */
