@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+
+
+    .login-section {
+        flex: 1;
+        padding: 40px;
+        background-color: #fff;
+        margin-top: 150px;
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: rgb(51, 51, 165);
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #666;
+        }
+    }
+
+
+
+
+    .login-section form {
+        display: flex;
+        flex-direction: column;
+
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: rgb(51, 51, 165);
+        }
+
+
+        input {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .password {
+            color: rgb(51, 51, 165);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: rgb(51, 51, 165);
+
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+           
+            transition: opacity 0.3 ease transform 0.3 ease;
+        }
+    }
+
+    .signup {
+        margin-top: 20px;
+        font-size: 0.9rem;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+}
+
+.promo-section {
+    flex: 1;
+    background: linear-gradient(to right, rgba(0, 0, 128, 0.7), rgba(0, 0, 128, 0.5)), 
+    url('../../../11b981c5-b262-463d-bcda-c96876793d4b.jpg') no-repeat center center;
+    
+    opacity: 0.7;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(15px);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    .promo-text {
+        text-align: left;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        padding-right: 80px;
+        margin-top: 200px;
+
+    }
+
+    span {
+        color: #ffcc00;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+   
+  }
