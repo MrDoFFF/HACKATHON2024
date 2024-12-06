@@ -14,9 +14,37 @@
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
-<body>
+<body >
 
+    
+    <aside>
+        <div class="aside_top">
+            <img src="./assets/imgs/logo_f.png" alt="">
+            <div class="profile">
+                <div class="avatar">
+                    <span id="avatar_span">SF</span>
+                </div>
+                <div class="credentials">
+                    <span id="first_name">FIRST NAME</span>
+                    <span id="last_name">LAST NAME</span>
+                </div>
+            </div>
+            <div class="navigation_container">
+                <ul>
+                    <li><i class="fa-solid fa-users"></i>Employees</li>
+                    <li><i class="fa-solid fa-gift"></i>Payroll</li>
+                    <li><i class="fa-solid fa-bell"></i>Vocation Request</li>
+                    <li><i class="fa-solid fa-suitcase"></i>Contract</li>
+                    <li><i class="fa-solid fa-flag"></i>Report</li>
+                </ul>
+            </div>
+        </div>
+        <button class="log_out">
+            <i class="fa-solid fa-power-off"></i> Log Out
+        </button>
+    </aside>
 
+<<<<<<< HEAD
             <aside>
                     <div class="aside_top">
                         <div class="logo5">
@@ -45,9 +73,27 @@
                         <i class="fa-solid fa-power-off"></i>  Log Out
                     </button>
             </aside>
+=======
+    <main id="vacation">
+        <div class="vacation-container">
+            <h1>Request a Vacation</h1>
+            <form action="#" method="post" class="vacation-form">
+                <div class="form-group">
+                    <label for="vacation-date">Select Vacation Date:</label>
+                    <input type="date" id="vacation-date" name="vacation-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="vacation-reason">Reason for Vacation:</label>
+                    <textarea id="vacation-reason" name="vacation-reason" rows="4" placeholder="Enter your reason..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </main>
+    
+>>>>>>> gulban_table
 
-
-    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
